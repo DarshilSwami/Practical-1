@@ -1,0 +1,15 @@
+fun main() {
+    print("Enter Name: ")
+    val Name = readLine()!!.toString()
+    print("Enter Enrollment No: ")
+    val En_no = readLine()!!.toString()
+    print("Enter Email ID: ")
+    val Email = readLine()!!.toString()
+    print("Enter Branch: ")
+    val Branch = readLine()!!.toString()
+    print("\n===========Your Details===========")
+    print("\nName: $Name")
+    print("\nEnrollment No: $En_no")
+    print("\nEmail ID: $Email")
+    print("\nBranch: $Branch")
+}
